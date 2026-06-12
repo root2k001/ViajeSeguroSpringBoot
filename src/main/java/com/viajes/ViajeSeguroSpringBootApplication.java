@@ -13,6 +13,8 @@ public class ViajeSeguroSpringBootApplication implements CommandLineRunner{
 	
 	@Autowired //inyectar dependencias de forma automatica mediante instancias 
 	private CiudadRepository repoCiudad;  //simpicacion de instancia
+
+	private BusRepository repoBus; 
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ViajeSeguroSpringBootApplication.class, args);
