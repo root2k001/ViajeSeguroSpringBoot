@@ -6,4 +6,7 @@ import com.viajes.entity.Ciudad;
 
 public interface CiudadRepository extends JpaRepository<Ciudad, Integer>{
 
+	
+	
+	
 }

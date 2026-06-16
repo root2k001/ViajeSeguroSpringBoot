@@ -37,6 +37,61 @@ private double precio;
 
 @Column(name="estado",nullable = false,length = 20)
 private String estado;
+
+public Rura() {
+	super();
+}
+
+public int getIdRuta() {
+	return idRuta;
+}
+
+public void setIdRuta(int idRuta) {
+	this.idRuta = idRuta;
+}
+
+public Ciudad getCiudadOrigen() {
+	return ciudadOrigen;
+}
+
+public void setCiudadOrigen(Ciudad ciudadOrigen) {
+	this.ciudadOrigen = ciudadOrigen;
+}
+
+public Ciudad getCiudadDestino() {
+	return ciudadDestino;
+}
+
+public void setCiudadDestino(Ciudad ciudadDestino) {
+	this.ciudadDestino = ciudadDestino;
+}
+
+public double getDuracionHoras() {
+	return duracionHoras;
+}
+
+public void setDuracionHoras(double duracionHoras) {
+	this.duracionHoras = duracionHoras;
+}
+
+public double getPrecio() {
+	return precio;
+}
+
+public void setPrecio(double precio) {
+	this.precio = precio;
+}
+
+public String getEstado() {
+	return estado;
+}
+
+public void setEstado(String estado) {
+	this.estado = estado;
+}
+
+
+
 		
 	}
 	
